@@ -46,6 +46,7 @@
     "@babel/core": "^7.14.6",
     "@babel/preset-env": "^7.14.7",
     "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react-hooks": "^7.0.1",
     "@types/jest": "^26.0.23",
     "@typescript-eslint/eslint-plugin": "^4.4.1",
     "@wojtekmaj/enzyme-adapter-react-17": "^0.4.1",
@@ -66,7 +67,9 @@
     "husky": "^7.0.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.0.6",
+    "jest-canvas-mock": "^2.3.1",
     "lint-staged": ">=10",
+    "react-test-renderer": "^17.0.2",
     "style-loader": "^3.0.0",
     "ts-jest": "^27.0.3",
     "ts-loader": "^9.2.3",
@@ -85,5 +88,8 @@
     "*.{ts,tsx}": [
       "eslint"
     ]
-  }
+  },
+  "eslintIgnore": [
+    "*.test.tsx"
+  ]
 }
